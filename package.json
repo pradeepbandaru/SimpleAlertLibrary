@@ -1,6 +1,6 @@
 {
     "name": "ng-simple-alert_p",
-    "version": "1.0.7",
+    "version": "1.0.9",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
@@ -50,7 +50,7 @@
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/pradeepbandaru/DemoProjects.git"
+        "url": "git+https://github.com/pradeepbandaru/SimpleAlertLibrary.git"
     },
     "keywords": [
         "alert"
@@ -58,7 +58,7 @@
     "author": "Pradeep Kumar",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/pradeepbandaru/DemoProjects/issues"
+        "url": "https://github.com/pradeepbandaru/SimpleAlertLibrary/issues"
     },
-    "homepage": "https://github.com/pradeepbandaru/DemoProjects#readme"
+    "homepage": "https://github.com/pradeepbandaru/SimpleAlertLibrary#readme"
 }

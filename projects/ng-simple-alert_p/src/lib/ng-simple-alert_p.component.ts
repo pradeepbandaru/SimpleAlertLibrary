@@ -8,7 +8,7 @@ import { NgSimpleAlertService, SimpleAlertMessage } from './ng-simple-alert_p.se
     <div class="alert" *ngIf="alertMessage$ | async as alertMessage" [ngStyle]="{ background: alertMessage.color }">
       <span class="closebtn" (click)="closeAlert()">&times;</span>
       <strong>{{ alertMessage.prefix }}!</strong> {{ alertMessage.message }}
-      <span> This is Sample Package from Pradeep</span>
+      <span> This is Sample Package from Pradeep Bandaru</span>
     </div>
   `,
   styleUrls: ['./ng-simple-alert_p.component.css']
