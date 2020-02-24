@@ -176,9 +176,9 @@ var NgSimpleAlertModule = /** @class */ (function () {
 
 /**
  * @fileoverview added by tsickle
- * Generated from: ng-simple-alert_p.ts
+ * Generated from: ng-simple-alert_p_a.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
 export { NgSimpleAlertComponent, NgSimpleAlertModule, NgSimpleAlertService };
-//# sourceMappingURL=ng-simple-alert_p.js.map
+//# sourceMappingURL=ng-simple-alert_p_a.js.map

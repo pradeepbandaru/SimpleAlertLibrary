@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('rxjs'), require('@angular/common')) :
-    typeof define === 'function' && define.amd ? define('ng-simple-alert_p', ['exports', '@angular/core', 'rxjs', '@angular/common'], factory) :
-    (global = global || self, factory(global['ng-simple-alert_p'] = {}, global.ng.core, global.rxjs, global.ng.common));
+    typeof define === 'function' && define.amd ? define('ng-simple-alert_p_a', ['exports', '@angular/core', 'rxjs', '@angular/common'], factory) :
+    (global = global || self, factory(global['ng-simple-alert_p_a'] = {}, global.ng.core, global.rxjs, global.ng.common));
 }(this, (function (exports, core, rxjs, common) { 'use strict';
 
     /**
@@ -177,4 +177,4 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=ng-simple-alert_p.umd.js.map
+//# sourceMappingURL=ng-simple-alert_p_a.umd.js.map
