@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { NgSimpleAlertService } from '../../../ng-simple-alert_p/src/lib/ng-simple-alert_p.service';
+import { NgSimpleAlertService } from '../../../ng-simple-alert_demo/src/lib/ng-simple-alert_demo.service';
 
 @Component({
   selector: 'app-root',
   template: `
-    <ng-simple-alert_p></ng-simple-alert_p>
+    <ng-simple-alert_demo></ng-simple-alert_demo>
 
     <button class="success" (click)="createSuccessMessage()">
       Create success alert

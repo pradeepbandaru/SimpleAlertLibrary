@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "ng-simple-alert_p": [
-        "dist/ng-simple-alert_p"
+      "ng-simple-alert_demo": [
+        "dist/ng-simple-alert_demo"
       ],
-      "ng-simple-alert_p/*": [
-        "dist/ng-simple-alert_p/*"
+      "ng-simple-alert_demo/*": [
+        "dist/ng-simple-alert_demo/*"
       ]
     }
   },

@@ -3,33 +3,33 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "ng-simple-alert_p": {
+        "ng-simple-alert_demo": {
             "projectType": "library",
-            "root": "projects/ng-simple-alert_p",
-            "sourceRoot": "projects/ng-simple-alert_p/src",
+            "root": "projects/ng-simple-alert_demo",
+            "sourceRoot": "projects/ng-simple-alert_demo/src",
             "prefix": "lib",
             "architect": {
                 "build": {
                     "builder": "@angular-devkit/build-ng-packagr:build",
                     "options": {
-                        "tsConfig": "projects/ng-simple-alert_p/tsconfig.lib.json",
-                        "project": "projects/ng-simple-alert_p/ng-package.json"
+                        "tsConfig": "projects/ng-simple-alert_demo/tsconfig.lib.json",
+                        "project": "projects/ng-simple-alert_demo/ng-package.json"
                     }
                 },
                 "test": {
                     "builder": "@angular-devkit/build-angular:karma",
                     "options": {
-                        "main": "projects/ng-simple-alert_p/src/test.ts",
-                        "tsConfig": "projects/ng-simple-alert_p/tsconfig.spec.json",
-                        "karmaConfig": "projects/ng-simple-alert_p/karma.conf.js"
+                        "main": "projects/ng-simple-alert_demo/src/test.ts",
+                        "tsConfig": "projects/ng-simple-alert_demo/tsconfig.spec.json",
+                        "karmaConfig": "projects/ng-simple-alert_demo/karma.conf.js"
                     }
                 },
                 "lint": {
                     "builder": "@angular-devkit/build-angular:tslint",
                     "options": {
                         "tsConfig": [
-                            "projects/ng-simple-alert_p/tsconfig.lib.json",
-                            "projects/ng-simple-alert_p/tsconfig.spec.json"
+                            "projects/ng-simple-alert_demo/tsconfig.lib.json",
+                            "projects/ng-simple-alert_demo/tsconfig.spec.json"
                         ],
                         "exclude": [
                             "**/node_modules/**"
@@ -158,5 +158,5 @@
             }
         }
     },
-    "defaultProject": "ng-simple-alert_p"
+    "defaultProject": "ng-simple-alert_demo"
 }

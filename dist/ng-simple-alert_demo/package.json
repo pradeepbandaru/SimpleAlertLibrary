@@ -1,0 +1,41 @@
+{
+  "name": "ng-simple-alert_demo",
+  "version": "1.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  },
+  "main": "bundles/ng-simple-alert_demo.umd.js",
+  "module": "fesm5/ng-simple-alert_demo.js",
+  "es2015": "fesm2015/ng-simple-alert_demo.js",
+  "esm5": "esm5/ng-simple-alert_demo.js",
+  "esm2015": "esm2015/ng-simple-alert_demo.js",
+  "fesm5": "fesm5/ng-simple-alert_demo.js",
+  "fesm2015": "fesm2015/ng-simple-alert_demo.js",
+  "typings": "ng-simple-alert_demo.d.ts",
+  "metadata": "ng-simple-alert_demo.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "description": "TODO",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "ng test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeepbandaru/SimpleAlertLibrary.git"
+  },
+  "keywords": [
+    "Alert"
+  ],
+  "author": "Pradeep Bandaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeepbandaru/SimpleAlertLibrary/issues"
+  },
+  "homepage": "https://github.com/pradeepbandaru/SimpleAlertLibrary#readme"
+}
